@@ -32,7 +32,7 @@ jupyter notebook
 
 ### Populate a local PostGIS database with OSM data
 
-Using `osm2pgsql`:
+Using [`osm2pgsql`](https://github.com/openstreetmap/osm2pgsql):
 
 ``` bash
 # Start postgres if needed

@@ -9,6 +9,7 @@ Using [Anaconda distribution](https://www.continuum.io/downloads):
 ``` bash
 # Create a new virtual environment
 conda create --name remotesensing python
+source activate remotesensing
 
 # Install packages
 conda install numpy scipy scikit-learn matplotlib \
@@ -22,9 +23,6 @@ conda install numpy scipy scikit-learn matplotlib \
 # Clone the repository
 git clone https://github.com/yannforget/foss4g.git your_directory
 cd your_directory
-
-# Change environment
-source activate remotesensing
 
 # Start jupyter notebook
 jupyter notebook
